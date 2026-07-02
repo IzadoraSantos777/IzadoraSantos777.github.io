@@ -26,6 +26,7 @@ header p{
 header a{
     text-decoration: none;
     color: #fff;
+    padding: 5px, 10px;
 }
 
 header ul{
@@ -36,11 +37,7 @@ header ul{
     margin: auto;
 }
 
-header li{
-    padding: 5px, 10px;
-}
-
-header li: :first-child;
-header li: :hover{
-    background-color: 
+header li:first-child,
+header li:hover{
+   background-color: rgb(233, 124, 116);
 }
