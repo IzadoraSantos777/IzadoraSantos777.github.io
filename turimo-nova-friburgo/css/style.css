@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(5, 44, 26); 
+    color: white;            
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+
+img {
+    width: 300px;  
+    height: auto;  
+}
+
+header {
+    background-color: rgb(22, 78, 50); 
+    color: #ffffff;
+    text-align: center;        
+    padding: 40px 20px;        
+    margin-bottom: 30px;      
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+
+nav {
+    background-color: #2b7a62;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;   
+    gap: 20px;                 
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;         
+    transition: background 0.3s ease;
+}
+
+
+nav ul li a:hover {
+    background-color: #229c78;
+    border-radius: 4px;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;            
+    padding: 20px;             
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 30px 0;            
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+th, td {
+    padding: 12px 15px;        
+    text-align: left;          
+}
+
+th {
+    background-color: #1b8056; 
+    color: #ffffff;          
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+
+tbody tr {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+
+tbody tr:hover {
+    background-color: #f1f5f9;
+}
