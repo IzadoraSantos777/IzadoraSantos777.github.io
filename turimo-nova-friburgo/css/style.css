@@ -92,3 +92,27 @@ table {
 .coluna .textosmarrons {
   flex: 1; 
 }
+
+.formulario {
+    background-color: #3f2a1e;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.dados {
+    background-color: #986e52;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px; 
+}
+
+#enviar {
+    background-color: #7C7960;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 7px;
+}
