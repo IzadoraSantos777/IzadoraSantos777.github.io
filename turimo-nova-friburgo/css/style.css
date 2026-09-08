@@ -83,3 +83,12 @@ table {
     margin: 20px auto;
     justify-content: center;
 }
+
+.coluna {
+  display: flex;
+  gap: 20px; 
+}
+
+.coluna .textosmarrons {
+  flex: 1; 
+}
