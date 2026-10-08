@@ -1,4 +1,8 @@
-
+body {
+    background-color: #52223C;
+    color: #e8d7A9;
+    font-family: 
+}
 
 header {
     display: flex;
@@ -7,7 +11,7 @@ header {
 }
 
 .botao {
-    background-color: #aaa;
+    background-color: #3Eaa94;
     padding: 10px 30px;
     border-radius: 5px;
     text-decoration: none;
@@ -17,9 +21,9 @@ header {
 }
  
 .botao:hover {
-    background-color: #aaf;
+    background-color: #e8d7A9;
     transform: scale(1.05);
-    color: #00f;
+    color: #;
     box-shadow: 2px 5px 5px #888;
     transition: all .2s;
 }
@@ -31,6 +35,7 @@ header {
 }
 
 .card {
+    background-color: #6C3751;
     animation: pulsar .5s ease;
     animation-iteration-count: infinite;
     box-shadow: 2px 5px 5px #888;
