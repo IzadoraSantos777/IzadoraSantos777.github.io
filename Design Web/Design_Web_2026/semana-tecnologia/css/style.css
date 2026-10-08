@@ -1,0 +1,71 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.botao {
+    background-color: #aaa;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    margin: 15px
+ 
+}
+ 
+.botao:hover {
+    background-color: #aaf;
+    transform: scale(1.05);
+    color: #00f;
+    box-shadow: 2px 5px 5px #888;
+    transition: all .2s;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    animation: pulsar .5s ease;
+    animation-iteration-count: infinite;
+    box-shadow: 2px 5px 5px #888;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    transition: all .2s;
+}
+
+@keyframes pulsar {
+    0%
+    22%
+    77%
+    100%
+    
+}
+
+.programacao {
+    text-align: center;
+}
+
+.semanaDeTec {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+

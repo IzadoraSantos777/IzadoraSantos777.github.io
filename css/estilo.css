@@ -1,0 +1,92 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header {
+    background-image: url('../Design%20Web/Design_Web_2026/headerindex.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 80px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: #120e16;
+    color: #e2d9f3;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 30px 20px;
+}
+
+h1 {
+color: #b388ff;
+margin-bottom: 10px;
+}
+
+h2 {
+color: #d1b3ff;
+border-bottom: 2px solid #5c3d75;
+padding-bottom: 5px;
+margin-top: 25px;
+margin-bottom: 15px;
+}
+
+h3 {
+color: #e2d9f3;
+margin-bottom: 10px;
+}
+
+.content, .projeto {
+background-color: #1d1825;
+border: 1px solid #3d2b4e;
+border-radius: 8px;
+padding: 20px;
+margin-bottom: 20px;
+}
+
+p {
+margin-bottom: 10px;
+}
+
+ul {
+margin-left: 20px;
+}
+
+li {
+margin-bottom: 8px;
+}
+
+.projeto ul {
+list-style: none;
+margin-left: 0;
+}
+
+.projeto li {
+margin-bottom: 10px;
+}
+
+a {
+display: inline-block;
+color: #ffffff;
+background-color: #6a1b9a;
+text-decoration: none;
+padding: 10px 15px;
+border-radius: 5px;
+font-weight: bold;
+}
+
+a:hover {
+background-color: #8e24aa;
+}
