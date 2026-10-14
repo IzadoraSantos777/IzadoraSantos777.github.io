@@ -49,11 +49,7 @@ header {
 }
 
 @keyframes pulsar {
-    0%
-    22%
-    77%
-    100%
-    
+ 
 }
 
 .programacao {
@@ -72,5 +68,17 @@ footer {
     display: flex;
     justify-content: right;
     list-style: none;
+}
+
+.titulo:hover {
+    color: #3Eaa94;
+    transform: scale(1.05);
+    transition: all 500ms ease-ins;
+}
+
+.titulo {
+   animation: pulsar .5s ease;
+   transition: all 500ms ease-ins;
+
 }
 
