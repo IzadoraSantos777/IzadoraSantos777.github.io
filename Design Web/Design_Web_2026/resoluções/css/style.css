@@ -1,0 +1,28 @@
+/*Tela de Celular*/
+@media (max-width:480px)
+{
+    body{
+        background-color: aqua;
+    }
+}
+
+/*Tela de Tablet*/
+@media (min-width:481px) and (max-width:991px){
+    body{
+        background-color: blueviolet;
+    }
+}
+
+/*Tela Desktop*/
+@media (min-width:992px) and (max-width:1199px){
+    body{
+        background-color: brown;
+    }
+}
+
+
+@media (min-width:1200px){
+    body{
+        background-color: darksalmon;
+    }
+}
