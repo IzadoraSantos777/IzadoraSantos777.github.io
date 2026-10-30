@@ -1,5 +1,54 @@
-.jumbotron {
-    background-image: url(../img/img/vitrine.jpg);
+.jumbotron{
+    background-image: url("../img/img/vitrine.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
+}
+
+.hall{
+padding: 40px 0;
+}
+
+.hall-title{
+    padding-top: 100px;
+    font-size: 3rem;
+}
+
+.hall-portrait{
+    background-color: #ccc;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hall-image{
+    height: 300px;
+}
+
+.hall-button{
+    padding: 5px 50px;
+}
+
+.media img{
+    width: 64px;
+    height: 64px;
+}
+
+.borda{
+    margin-top: 30px;
+}
+
+.centraliza{
+    display: block; 
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+    margin-top: 10px;
 }
