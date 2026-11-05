@@ -1,0 +1,129 @@
+/*Parte 1 – Complete as instruções
+
+Complete os trechos de código com as propriedades, valores ou elementos adequados.
+
+Questão 1 Considere uma imagem que deve ser exibida em escala de cinza e recuperar suas cores originais quando o usuário passar o mouse sobre ela. Complete o CSS:*/
+
+.banner img {
+
+width: 100%;
+
+filter: grayscale(70%);
+
+transition: all 5s ease-out;
+
+box-shadow: 4px #888;
+
+}
+
+
+.banner img:hover {
+
+filter: none;
+
+}
+
+/*Agora, acrescente uma sombra à imagem utilizando box-shadow.*/
+
+/*Questão 2 Um conjunto de três cards deve ser apresentado lado a lado, com espaçamento entre eles e alinhamento centralizado. Complete:*/
+
+.cards {
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+gap: 4px;
+
+flex-wrap: wrap;
+
+}
+
+/*Explique por que flex-wrap pode ser importante em uma interface responsiva.*/
+
+/*Questão 3 Um botão deve aumentar levemente de tamanho e mudar de cor quando o usuário passar o mouse sobre ele. Complete:*/
+
+.botao {
+
+background-color: #2457a6;
+
+transition: ____________;
+
+}
+
+
+.botao:hover {
+
+background-color: #4677c2;
+
+transform: scale(2.2);
+
+}
+
+/*Questão 4. Um elemento de destaque deve pulsar continuamente, aumentando e diminuindo discretamente de tamanho. Complete:*/
+
+@keyframes pulsar {
+
+0% {
+
+transform: scale(1);
+
+}
+
+
+50% {
+
+transform: scale(1.1);
+
+}
+
+
+100% {
+
+transform: scale(1);
+
+}
+
+}
+
+
+.destaque {
+
+animation: pulsar 2s infinite;
+
+}
+
+/*Questão 5. Uma seção deve apresentar três colunas em telas grandes e apenas uma coluna em dispositivos com largura inferior a 600px. Complete:*/
+
+.secao {
+
+display: flex;
+
+flex-direction: column;
+
+}
+
+
+@media (max-width: 600px) {
+
+.secao {
+
+grid-template-columns: ____________;
+
+}
+
+}
+
+/*Questão 6. Responda completando:*/
+
+/*a) A tag HTML5 utilizada para representar o conteúdo principal da página é main.*/
+
+/*b) A tag indicada para agrupar links de navegação é nav.*/
+
+/*c) No Bootstrap, a classe utilizada para criar um contêiner com largura responsiva é __________.*/
+
+/*d) A classe Bootstrap utilizada para organizar elementos em uma linha do sistema de grid é __________.*/
+
+/*e) A classe Bootstrap utilizada para criar uma coluna que ocupa metade da largura disponível em telas médias é __________.*/
