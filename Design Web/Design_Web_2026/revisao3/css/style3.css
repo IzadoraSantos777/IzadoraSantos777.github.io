@@ -1,0 +1,96 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #2457a6;
+    padding: 15px;
+    border-radius: 8px;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ffd700;
+}
+
+@keyframes pulsar-card {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.card-destaque {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    animation: pulsar-card 3s infinite;
+}
+
+.imagem-destaque {
+    width: 100%;
+    height: 200px;
+}
+
+.imagem-destaque img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(90%);
+    transition: filter 0.3s ease;
+}
+
+.card-destaque:hover .imagem-destaque img {
+    filter: brightness(100%);
+}
+
+.conteudo-destaque {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.conteudo-destaque h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #2457a6;
+}
+
+.conteudo-destaque p {
+    margin: 0;
+    font-size: 14px;
+    color: #4a5568;
+}
+
+.botao-destaque {
+    background-color: #2457a6;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+}
+
+.botao-destaque:hover {
+    background-color: #1a3f7a;
+}
